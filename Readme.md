@@ -4,7 +4,7 @@
 ### Запросы, выполненные для подготовки базы данных store
 ```sql
 CREATE DATABASE store;
-CREATE USER nikita WITH PASSWORD '***';
+CREATE USER nikita WITH PASSWORD '*****';
 GRANT ALL PRIVILEGES ON DATABASE store TO nikita;
 ALTER DATABASE store OWNER TO nikita;
 \c store
